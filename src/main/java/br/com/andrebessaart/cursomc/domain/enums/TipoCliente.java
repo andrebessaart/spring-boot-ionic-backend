@@ -1,4 +1,4 @@
-package br.com.andrebessaart.cursomc.domain.enuns;
+package br.com.andrebessaart.cursomc.domain.enums;
 
 public enum TipoCliente {
 
