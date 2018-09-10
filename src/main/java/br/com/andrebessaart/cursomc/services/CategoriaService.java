@@ -1,5 +1,6 @@
 package br.com.andrebessaart.cursomc.services;
 
+import java.util.List;
 import java.util.Optional;
 
 import javax.validation.ConstraintViolationException;
@@ -42,5 +43,9 @@ public class CategoriaService {
 		   throw new DateIntegrityException("Não é possível excluir uma categoria que possui produtos!");
 	   }
 	   
+	}
+
+	public List<Categoria> findAll() {
+		return repo.findAll();
 	}
 }
